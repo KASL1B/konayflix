@@ -1,0 +1,100 @@
+body {
+      color: white;
+      background: black;
+      margin: 0px;
+      font-family: "Chakra Petch", sans-serif;
+      margin-bottom: 100px; 
+
+}
+
+header {
+      border-bottom: solid 2px rgb(97, 97, 255);
+      padding: 20px;
+      font-size: 27px;
+      color: rgb(97, 97, 255);
+}
+
+.chamada {
+      background: rgb(25 2 70);
+      padding-bottom: 80px;
+      padding-top: 80px;
+      display: flex;
+      justify-content: center;
+}
+
+.chamada-texto {
+      margin-right: 5%;
+}
+
+h1 {
+      font-size: 40px;
+}
+
+p {
+      font-size: 20px;
+}
+.categoria-videos {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+}
+.categoria{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 50px;
+}
+.categoria-videos img {
+      opacity: 0.5;
+      height: 200px;
+
+}
+.categoria-videos img:hover{
+      opacity: 1.0;
+      border: 1px solid green;
+}
+.categoria h2 {
+      color: rgb(97, 97, 255);
+}
+.categoria-videos-loki {
+      display : flex;
+      overflow-x: auto;
+      gap: 10px;
+}
+.loki {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 50px;
+}
+.categoria-videos-loki img{
+      opacity: 0.5;
+      height: 200px;
+}
+.categoria-videos-loki img:hover{
+      opacity: 1.0;
+      border: 1px solid green;
+}
+.loki h2 {
+      color: rgb(97, 97, 255);
+}
+.categoria-videos-duna{
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+}
+.duna{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 50px;
+}
+.categoria-videos-duna img{
+      opacity: 0.5;
+      height: 200px;
+}
+.categoria-videos-duna img:hover{
+    opacity: 1.0;
+    border: 2px solid green;
+}
+.duna h2{
+      color: rgb(97, 97, 255);
+}
+      
